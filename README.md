@@ -2,7 +2,7 @@
 
 A real-time AI-powered web application designed to help **farmers and veterinarians diagnose Mastitis and Foot-and-Mouth Disease (FMD)** in cattle using **symptom inputs** or **image analysis**.
 
-![Python](https://img.shields.io/badge/Python-3.9-3.11%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightgreen) ![ML](https://img.shields.io/badge/Machine-Learning-orange)
+![Python](https://img.shields.io/badge/Python-3.9%E2%80%933.11-blue) ![MobileNet](https://img.shields.io/badge/MobileNet-CNN-lightgreen) ![ML](https://img.shields.io/badge/Machine-Learning-orange) 
 
 ---
 
