@@ -11,9 +11,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Configure Gemini API
-#GOOGLE_API_KEY = "AIzaSyBxLKlJGn9K-sHeBMdxjJ5MEycNXpd3jYc"
-#genai.configure(api_key="AIzaSyC35sQNpirJ-i0TumT3mk2EFoHdCZLpSU0") AIzaSyDLkM_pjvpr4h73sn7-8RRPjSa2J8TZY9s # <-- Replace with your API key
-genai.configure(api_key="AIzaSyBNKZo3zLiz8MkWD7A2UacZJpBXlvnA8e4")
+genai.configure(api_key="apikey")
 
 chat_model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
@@ -241,20 +239,6 @@ def chat():
             "response": "⚠️ Something went wrong while generating a response.",
             "error": str(e)
         }), 500
-
-
-
-# @app.route('/run_chatbot', methods=['POST'])
-# def run_chatbot():
-#     try:
-#         # Execute the chatbot.py script and capture output
-#         result = subprocess.run(['python', 'chatbot.py'], capture_output=True, text=True, check=True)
-#         chatbot_output = result.stdout
-#         return jsonify({'chatbot_output': chatbot_output})
-#     except subprocess.CalledProcessError as e:
-#         return jsonify({'error': f'Error running chatbot script: {e.stderr}'}), 500
-#     except Exception as e:
-#         return jsonify({'error': f'An unexpected error occurred: {str(e)}'}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
