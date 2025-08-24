@@ -43,7 +43,7 @@ A real-time AI-powered web application designed to help **farmers and veterinari
 ### Backend
 - Python 3.9+
 - Flask for API and routing
-- Machine Learning: Random Forest (symptoms), CNN (image)
+- Machine Learning: Random Forest (symptoms), MobileNet CNN (image)
 
 ---
 
