@@ -2,7 +2,7 @@
 
 A real-time AI-powered web application designed to help **farmers and veterinarians diagnose Mastitis and Foot-and-Mouth Disease (FMD)** in cattle using **symptom inputs** or **image analysis**.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightgrey) ![ML](https://img.shields.io/badge/Machine-Learning-orange)
+![Python](https://img.shields.io/badge/Python-3.9-3.11%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightgreen) ![ML](https://img.shields.io/badge/Machine-Learning-orange)
 
 ---
 
@@ -41,7 +41,7 @@ A real-time AI-powered web application designed to help **farmers and veterinari
 - i18next for multi-language support
 
 ### Backend
-- Python 3.9+
+- Python 3.9-3.11
 - Flask for API and routing
 - Machine Learning: Random Forest (symptoms), MobileNet CNN (image)
 
@@ -50,7 +50,7 @@ A real-time AI-powered web application designed to help **farmers and veterinari
 ## 🚀 Setup & Installation
 
 ### Prerequisites
-- Python **3.9+**
+- Python **3.9-3.11**
 
 ### Environment Setup
 
