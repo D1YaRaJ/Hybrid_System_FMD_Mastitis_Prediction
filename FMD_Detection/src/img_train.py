@@ -1,5 +1,3 @@
-#foot and mouth image model
-
 import os
 import cv2
 import numpy as np

@@ -2,7 +2,6 @@ import subprocess
 import sys
 import os
 import warnings
-from suggestion import AutoVetExpert
 warnings.filterwarnings("ignore", category=UserWarning)
 
 def main():
