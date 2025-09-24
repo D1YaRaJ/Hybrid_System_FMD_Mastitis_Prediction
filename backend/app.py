@@ -377,7 +377,6 @@ def predict_both():
         response['fmd_combined_error'] = 'FMD analysis failed due to missing or invalid inputs'
 
     return jsonify(response)
-
 @app.route('/chat', methods=['POST'])
 def chat():
     try:
