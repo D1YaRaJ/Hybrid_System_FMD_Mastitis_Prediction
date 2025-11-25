@@ -12,11 +12,11 @@ import google.generativeai as genai
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 
-# Configure Gemini API
-genai.configure(api_key="AIzaSyC35sQNpirJ-i0TumT3mk2EFoHdCZLpSU0")
+# Configure Gemini API 
+genai.configure(api_key="AIzaSyBNKZo3zLiz8MkWD7A2UacZJpBXlvnA8e4")
 
 chat_model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.5-flash",
     generation_config={"temperature": 0.7, "top_p": 1, "top_k": 1},
     safety_settings=[
         {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
